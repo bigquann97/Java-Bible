@@ -1,0 +1,14 @@
+Arrays클래스 - 배열 다루기 유용한 메서드 - toString()은 모든 기본형 배열과 참조형 배열별로 하나씩 정의됨
+
+
+
+Arrays.
+
+copyOf(arr, len), copyOfRange(arr, start, end)
+fill(arr, num), setAll(arr, num)
+sort(arr), binarySearch(arr, findingNum) - 정렬시에만 사용 가능
+equals(arr, arr2), deepEquals(arr, arr2) // toString(Array), deepToString(2D3DArray)
+asList(value) - 배열을 리스트에 담아 반환 - 반환한 크기변경 불가
+parallelXXX() - 빠른 결과얻기위해 여러 쓰레드가 작업 나누어 처리
+spliterator() - 여러 쓰레드 처리 위해 하나의 작업을 여러 작업으로 나누는 Spliterator 반환
+stream() - 컬렉션을 스트림으로 변환

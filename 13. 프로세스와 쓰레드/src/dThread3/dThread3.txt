@@ -1,0 +1,39 @@
+9. 쓰레드의 동기화
+멀티쓰레드 프로세스 - 자원 공유 - 서로 작업 영향 -임계영역(critical section), 잠금(락, lock)으로 control
+한 쓰레드가 진행중인 작업을 다른 쓰레드가 간섭하지 못하도록 막는 '쓰레드의 동기화(synchronized)' -
+
+9.1 synchronized를 이용한 동기화
+1. 메서드 전체를 임계영역으로 지정 - public synchronized void calcSum() {}
+2. 특정한 영역을 임계영역으로 지정 synchronized(객체의 참조변수) {} - 참조변수는 락을 걸고자 하는 객체를 참조하는 것이어야 한다
+이 블럭 영역 들어간 순간 지정된 객체의 lock을 얻게되고, 블럭 벗어나면 lock 반납
+모든 객체는 lock 하나씩 가지며, 해당 객체의 lock가진 쓰레드만 임계영역 코드수행가능 - 다른 쓰레드들은 lock 얻을때까지 기다림
+임계영역 최소화해서 보다 효율적 프로그램 필요
+=> ThreadEx21.java, ThreadEx22.java
+
+9.2 wait()과 notify()
+특정 쓰레드가 객체의 락을 가진 상태로 오랜시간 보내면 안됨
+wait()에 의해 lock 반납 후, notify()로 다시 락을 얻어 진행
+waiting pool에서 대기, notify로 임의의 쓰레기통만 통지를 받음 - lock은 단 하나의 쓰레드만 얻을 수 있음
+Object에 정의됨, 동기화블록 내에서만 사용가능, 보다 효율적 동기화 가능하게함
+=> ThreadWaitEx1.java
+
+* 기아 현상과 경쟁 상태
+요리사 쓰레드는 계속 통지를 받지 못하고 오랫동안 기다림 - 기아(Starvation) 현상
+notify()대신 notifyAll()사용 - 모든 쓰레드에 통지 - 손님 쓰레드는 다시 waiting pool에 들어가더라고 요리사 쓰레드는 결국 lock 얻어 작업 진행
+
+여러 쓰레드가 lock을 얻기 위해 서로 경쟁하는 경쟁상태(race condition) - 개선위해선 요리사 쓰레드와 손님 쓰레드 구별해서 통지 필요
+
+9.3 Lock과 Condition을 이용한 동기화
+같은 메서드 내에서만 lock을 걸수있는 synchronized => java.util.concurrent.locks 패키지 사용 가능
+ReentrantLock - 재진입 가능 lock, 가장 일반적 배타 lock - 기존 lock과 일치
+ReentrantReadWriteLock - 읽기에는 공유적, 쓰기는 배타적 lock - 읽기를 위한 lock과 쓰기를 위한 lock
+StampedLock - ReentrantReadWriteLock에 낙관적 lock 기능 추가
+
+* ReentrantLock의 생성자
+ReentrantLock() , ReentrantLock(boolean fair)
+void lock(), void unlock, boolean isLocked()
+unlock은 try - finally문으로 감싸는것이 일반적 - 어떤 일이 발생해도 unlock 수행
+
+* ReentrantLock과 Condition
+
+=>

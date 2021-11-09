@@ -1,0 +1,26 @@
+Iterator, ListIterator, Enumeration - 컬렉션에 저장된 요소에 접근하는데 사용되는 인터페이스
+Enumeration - Iterator 구버전 // ListIterator - Iterator의 기능 향상 버전
+
+Iterator - Collection 인터페이스에 구현 - List와 Set에서 사용 가능
+hasNext(), next(), remove()
+
+(List타입으로 LinkedList 객체생성 - 이후 재사용시 List타입 메서드만 사용해 추후 타입 변경시 나머지 코드 검토 불필요)
+
+
+key value pair => map.iterator 달수가 X
+ map. keySet, entrySet().iterator map.iterator
+Map인터페이스의 경우, key와 value에 대해 따로 keySet(), entrySet()메서드를 통해 Set형태를 얻어온 후 다시 iterator 호출 // *
+(StringBuffer sb에 대해 sb.append("A").append("B")... 가능 - StringBuffer값을 반환하기 때문)
+
+List클래스 - 저장순서 유지 - Iterator 읽어온 결과가 저장순서와 동일
+Set클래스 - 저장순서 유지X - 저장순서와 동일하지 않음
+
+12345
+12345
+
+Enumeration - 컬렉션프레임웍 만들어지기 이전 - Iterator 구버전 - 사용 잘안함(Iterator 사용) - 그냥 넘어감
+ListIterator - Iterator 상속받아 기능 추가(단방향이동) - 양방향 이동 가능 - List인터페이스를 구현한 컬렉션에서만 사용 가능
+
+ListIterator - hasNext, hasPrevious를 통해 이동할 수 있는지 확인
+remove() 선택적 메서드 구현시 throw new UnsupportedOperationException();
+=> remove사용시 next()와 같이 사용

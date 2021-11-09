@@ -1,0 +1,23 @@
+스택 - Last In First Out - LIFO - push / pop
+큐 - First In First Out - FIFO - offer / poll
+
+스택 - 순차적 데이터 추가 및 삭제 - ArrayList - 자바 내 클래스로 구현됨
+큐 - 첫번째 저장된 데이터 삭제 - LinkedList - 삭제마다 빈공간 비효율성 - 자바내 클래스X 인터페이스로만 정의
+
+스택 - 수식계산, 수식괄호검사, undo/redo, 웹브라우저 뒤/앞
+큐 - 최근 사용 문서, 인쇄작업 대기목록, 버퍼
+
+PriorityQueue
+- Queue인터페이스 구현체 중 하나
+저장 순서 관계X - 우선순위 높은것부터 꺼냄 - null 저장 불가(NullPointerException)
+저장공간으로 배열 사용, 각 요소를 힙(heap) 자료구조 형태로 저장
+=> 숫자는 작을수록 우선순위가 높음 - 자동으로 처리
+=> 객체의 경우, 객체의 크기를 비교할 수 있는 방법 제공해야함
+
+Deque(Double-Ended Queue)
+디큐 - 양쪽 끝에 추가 및 삭제 가능
+조상은 Queue, 구현체는 ArrayDeque, LinkedList
+offerLast, pollLast // pollFirst, offerFirst
+=> 스택과 큐를 하나로 합쳐놓은 것과 같음
+
+스택 - return에 대한 정보(pop), 지역변수, 임시공간 느낌

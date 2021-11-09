@@ -1,0 +1,7 @@
+Comparable, Comparator는 인터페이스 - 컬렉션을 정렬하는데 필요한 메서드를 정의함
+
+Comparable을 구현하는 클래스는 같은 타입의 인스턴스끼리 서로 비교 가능
+wrapper클래스, string,date,file ...에는 구현 되어있음 기본적으로 오름차순
+
+Comparable - 기본 정렬기준의 구현
+Comparator - 기본 정렬기준 외에 다른 기준으로 정렬

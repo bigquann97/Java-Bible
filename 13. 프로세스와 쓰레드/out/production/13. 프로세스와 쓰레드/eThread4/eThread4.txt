@@ -1,0 +1,6 @@
+9.4 volatile
+멀티코어 프로세서에는 코어마다 별도의 캐시 존재
+
+*volatile로 long과 double을 원자화
+
+9.5 fork & join 프레임웍

@@ -1,0 +1,4 @@
+Properties는 HashMap의 구버전인 Hashtable을 상속받아 구현한 것
+Hashtable - (Object, Object) 형태로 key값을 저장함
+Properties - (String, String)의 형태로 저장함 - 단순화된 컬렉션 클래스
+Properties - 만든 프로젝트에 대해 환경설정 Properties
