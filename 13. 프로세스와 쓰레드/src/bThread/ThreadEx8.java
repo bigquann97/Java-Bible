@@ -5,6 +5,7 @@ public class ThreadEx8 {
         ThreadEx8_1 th1 = new ThreadEx8_1(); // 우선순위 5 - main 메서드에서 생성
         ThreadEx8_2 th2 = new ThreadEx8_2(); // 우선순위 5 - main 메서드에서 생성
 
+
         th2.setPriority(7);
 
         System.out.println("Priority of th1(-): " + th1.getPriority());

@@ -6,6 +6,7 @@ public class ThreadEx1 {
 
         Runnable r = new ThreadEx1_2(); // Runnable을 구현한 클래스의 인스턴스를 생성
         Thread t2 = new Thread(r, "Hi"); // 생성자 Thread(Runnable target)
+        Thread t3 = new Thread();
         
         // Thread t2 = new Thread(new ThreadEx1_2()); - 위 두줄을 간단히
 
