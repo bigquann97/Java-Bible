@@ -1,4 +1,4 @@
-package aLambda;
+package aLambda.LambdaEx1;
 
 @FunctionalInterface
 interface MyFunction {
