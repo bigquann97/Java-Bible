@@ -1,0 +1,19 @@
+1.4 java.util function 패키지
+자주 쓰이는 형식의 메서드를 함수형 인터페이스로 미리 정의 - 재사용성이나 유지보수 측면에서 좋음
+
+* 조건식의 표현에 사용되는 Predicate
+Function의 변형, 반환타입 boolean - 조건식을 람다식으로 표현하는데 사용
+
+* 매개변수가 두 개인 함수형 인터페이스
+접두사 'Bi' - BiConsumer, BiPredicate, BiFunction
+
+* UnaryOperator 와 BinaryOperator
+Function의  또 다른 변형 - 매개변수의 타입과 반환타입의 타입이 모두 일치한다는 점만 제외하고는 Function과 같음
+
+* 컬렉션 프레임웍과 함수형 인터페이스
+컬렉션 프레임웍 인터페이스의 디폴트 메서드의 일부는 함수형 인터페이스
+=> LambdaEx4.java, LambdaEx5.java
+
+
+
+1.5 Function의 합성과 Predicate의 결합
