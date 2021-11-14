@@ -1,6 +1,0 @@
-new issue
-<<<<<<< HEAD
-commit in main
-=======
-commit in issue1 after merge
->>>>>>> issue1
