@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a775cc9c-7f90-4631-ac22-e657be284903" name="Changes" comment="조건문 반복문">
-      <change afterPath="$PROJECT_DIR$/../5. 배열/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/5. 배열.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/src/aArray/ArrayTEst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/src/aArray/DimensionArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/src/aArray/Lotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5. 배열/src/aArray/aArray.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a775cc9c-7f90-4631-ac22-e657be284903" name="Changes" comment="조건문 반복문" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
