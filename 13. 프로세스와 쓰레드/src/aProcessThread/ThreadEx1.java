@@ -15,6 +15,7 @@ public class ThreadEx1 {
 
         t1 = new ThreadEx1_1(); // 다시 생성해서 쓰레드 실행 - 두번 호출시 IllegalThreadStateException
         t1.start();
+
     }
 }
 

@@ -19,11 +19,11 @@ public class LambdaEx2 {
 
         System.out.println(f);
         System.out.println(obj);
-        System.out.println(str);
+        System.out.println(str); // parameter check
 
 //        System.out.println( () -> {} ); - 에러 람다식은 Object타입 형변환 불가
         System.out.println((MyFunction)( () -> {} ));
-//        System.out.println((MyFunction)( () -> {} ).toString() ); - 에러
+//        System.out.println((MyFunction)( () -> {} ).toString() ); //  에러
         System.out.println( ( (Object) (MyFunction) ( () -> {} ) ).toString() );
         System.out.println();
     }

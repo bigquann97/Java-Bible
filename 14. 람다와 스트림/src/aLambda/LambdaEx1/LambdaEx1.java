@@ -1,5 +1,7 @@
 package aLambda.LambdaEx1;
 
+import java.util.Comparator;
+
 @FunctionalInterface
 interface MyFunction {
     void run(); // public abstract void run();
@@ -16,9 +18,9 @@ public class LambdaEx1 {
     }
 
     public static void main(String[] args) {
+
         // 람다식으로 MyFunction의 run()을 구현
         MyFunction f1 = () -> System.out.println("f1.run()");
-
 /*
         MyFunction f1 = new MyFunction() {
             @Override
@@ -34,7 +36,6 @@ public class LambdaEx1 {
                 System.out.println("f2.run()");
             }
         };
-
         MyFunction f3 = getMyFunction();
 
         f1.run();
