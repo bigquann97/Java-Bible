@@ -1,0 +1,15 @@
+For문 - 초기화 조건식 증감식 블럭 - 모두 생략시 무한반복문
+초기화, 증감식 두 문장 이상 가능
+중첩 for문
+
+향상된 for문 (enhanced for statement)
+for(타입 변수명 : 배열 또는 컬렉션) {}
+
+while문 - 조건식 참인동안만 문장 반복
+while문 조건식 생략 불가 - true만쓰면 무한반복
+
+do-while문
+do {
+} while();
+
+break문

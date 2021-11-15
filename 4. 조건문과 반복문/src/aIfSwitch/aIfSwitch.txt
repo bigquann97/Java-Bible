@@ -1,0 +1,28 @@
+equals, equalsIgnoreCase
+Scanner scanner = new Scanner(System.in);
+scanner.nextLine();
+Integer.parseInt(String);
+charAt(int a);
+
+// Math.random() 의 사용법
+// char타입은 문자가 아닌 정수(유니코드)로 저장되기 때문에, char타입 값도 switch문 조건식과 case문에 사용 가능
+
+true or false로 조건식 판단
+if, if-else, if-else if-else
+조건의 중복을 판단하여 조건식을 간결하게 사용할 수 있다 - score >= 90, score >= 80 ...
+중첩 if 문 - 중첩 횟수 제한 x - 괄호를 넣어 관계를 확실히 해주는 것이 좋다
+
+Switch문 - 제약조건이 존재함
+switch (조건식) {
+    case 값1 :
+        break; // 꼭 사용 - 사용 안하면 모든 case를 훑게됨 - 일부러 사용할 수 도 있게 됨
+    ...
+    default : // 결과 일치하지않을 때
+}
+제약조건 - 조건식의 결과값이 반드시 정수, case문 값 역시 정수, 중복 불가, case문 값 반드시 상수(변수, 실수, 문자열 사용 불가)
+문자열 상수는 JDK1.7부터 사용 가능
+switch문의 중첩가능 - break문 신경써서 작성하기
+
+break문 - 해당 반복문을 벗어남
+continue문 - 반복문 내에서만 사용 가능 - 반복문의 끝으로 이동해 다음 반복으로 넘어감
+이름 붙은 반복문 => NamingEx.java

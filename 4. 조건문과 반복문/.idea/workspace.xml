@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a775cc9c-7f90-4631-ac22-e657be284903" name="Changes" comment="조건문 반복문">
+      <change afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/14. 람다와 스트림.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/out/production/14. 람다와 스트림/14. 람다와 스트림.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4. 조건문과 반복문/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. 조건문과 반복문a.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aIfSwitch/NamingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aIfSwitch/aIfSwitch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bRepeat/FlowEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bRepeat/WhileEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bRepeat/bRepeat.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20wy3xzDmW2aNECnLCv6H1FgUj5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.NamingEx">
+    <configuration name="FlowEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bRepeat.FlowEx" />
+      <module name="4. 조건문과 반복문a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bRepeat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NamingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aIfSwitch.NamingEx" />
+      <module name="4. 조건문과 반복문a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aIfSwitch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bRepeat.WhileEx" />
+      <module name="4. 조건문과 반복문a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bRepeat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NamingEx" />
+        <item itemvalue="Application.WhileEx" />
+        <item itemvalue="Application.FlowEx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a775cc9c-7f90-4631-ac22-e657be284903" name="Changes" comment="" />
+      <created>1636969748946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636969748946</updated>
+      <workItem from="1636969750236" duration="1492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="조건문 반복문" />
+    <option name="LAST_COMMIT_MESSAGE" value="조건문 반복문" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+1.4 java.util function 패키지
+자주 쓰이는 형식의 메서드를 함수형 인터페이스로 미리 정의 - 재사용성이나 유지보수 측면에서 좋음
+java.lang.Runnable, Supplier<T> - get , Consumer<T> - accept, Function<T, R> - apply, Predicate<T> - boolean test
+
+* 조건식의 표현에 사용되는 Predicate
+Function의 변형, 반환타입 boolean - 조건식을 람다식으로 표현하는데 사용
+
+* 매개변수가 두 개인 함수형 인터페이스
+접두사 'Bi' - BiConsumer, BiPredicate, BiFunction
+둑 ㅐ 이상의 매개변수 가지려면, 직접 만들어 사용해야함
+
+* UnaryOperator 와 BinaryOperator
+Function의  또 다른 변형 - 매개변수의 타입과 반환타입의 타입이 모두 일치한다는 점만 제외하고는 Function과 같음
+
+* 컬렉션 프레임웍과 함수형 인터페이스
+컬렉션 프레임웍 인터페이스에 있는 디폴트 메서드의 일부는 함수형 인터페이스
+removeIf, replaceAll, forEach, compute .. 등
+=> LambdaEx4.java, LambdaEx5.java
+
+* 기본형을 사용하는 함수형 인터페이스
+기본형 대신 래퍼클래스를 사용하는 것은 비효율적 - 기본형을 사용하는 함수형 인터페이스도 제공됨
+DoubleToIntFunction, ToIntFunction, IntFunction, ObjIntConsumer
+=> LambdaEx6.java
+
+1.5 Function 의 합성과 Predicate 의 결합
+함수형 인터페이스에는 추상 메서드외에, 디폴트 메서드와 static메서드가 정의되어 있음
+Function - andThen, compose, identity
+Predicate - and, or, negate, isEqual
+
+=> LambdaEx7.java
+
+1.6 메서드 참조
