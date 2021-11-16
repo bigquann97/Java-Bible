@@ -1,0 +1,21 @@
+2.4 Optional<T>와 OptionalInt
+최종 연산의 결과 타입이 Optional이 존재함
+Optional<T> - 지네릭클래스 - T타입의 객체를 감사는 래퍼 클래스 - 모든 타입의 참조변수 담을 수 있음
+객체에 답아서 반환시, null 체크 안하고 메서드를 통해 간단히 처리 가능 + NullPointerException 발생않는 간결한 코드 작성
+
+* Optional객체 생성하기
+Optional.of로 생성(NullPointerException 발생)  // 참조변수 값이 null 일 가능성 있으면 - ofNullable
+기본값 초기화시 empty()로 초기화 하는 것이 바람직
+
+* Optional 객체의 값 가져오기
+get() // null일땐 NoSuchElementException - orElse(매개변수); 를 통해 null일때 반환값 설정 가능
+null을 대체할 값을 반환하는 람다식 지정하는 orElseGet() // null 일 때 지정된 예외 발생시키는 orElseThrow()
+
+Optional 객체에도 filter, map, flatMpa 사용 가능
+
+* OptionalInt, OptionalLong, OptionalDouble
+Optional도 기본형을 값으로 하는 타입 존재
+isPresent()로 저장된 값 있는지 없는지 파악 가능
+
+Optional객체는 null 저장시 비어있는것과 동일하게 취급
+=> OptionalEx1.java

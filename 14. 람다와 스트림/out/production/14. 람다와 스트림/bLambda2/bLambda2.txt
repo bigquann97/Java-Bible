@@ -30,3 +30,10 @@ Predicate - and, or, negate, isEqual
 => LambdaEx7.java
 
 1.6 메서드 참조
+람다식을 더욱 간결하게 - 람다식이 하나의 메서드만 호출하는 경우에 '메서드 참조(method reference)'로 간략히 가능
+Function<String, Integer> f = (String s) -> Integer.parseInt(s);
+Function<String, Integer> f = Integer::parseInt;
+하나의 메서드만 호출하는 람다식은 '클래스이름::메서드이름' 또는 '참조변수::메서드이름'으로 바꿀 수 있다
+
+* 생성자의 메서드 참조
+생성자를 호출하는 람다식도 메서드 참조로 변환 가능

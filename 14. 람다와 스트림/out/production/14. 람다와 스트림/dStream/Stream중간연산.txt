@@ -1,0 +1,31 @@
+2.3 스트림의 중간연산
+* 스트림 자르기 - skip(), limit()
+skip 매개변수 - 요소 건너뜀 // limit 매개변수 - 요소 개수 제한
+
+* 스트림의 요소 걸러내기 - filter(), distinct()
+distinct() - 중복된 요소 제거
+filter() - 조건에 맞지않는 요소 걸러냄 - 여러번 사용 가능
+sorted() - 기본정렬기준 or 매개변수 Comparator 기준 // 기본정렬시 Comparable구현 클래스 아니면 오류
+
+Comparator의 다양한 메서드 - default메서드, static메서드
+가장 기본적 메서드 comparing()
+스트림 요소가 Comparable구현한 경우, 매개변수 하나짜리 사용 - 그렇지 않으면 추가적인 매개변수 정렬기준(Comparator)따로 지정 필요
+기본형인 경우, 해당 타입에 맞는 comparing사용하여 오토박싱과 언박싱 과정을 없앰
+정렬 조건 추가시에는 thenComparing()사용
+=> StreamEx1.java
+
+* 변환 - map()
+요소에 저장된 값 중 원하는 필드만 뽑아내거나 특정 형태로 변환할때 - map()
+
+* 조회 - peek()
+연산과 연산 사이 올바르게 처리되었는지 확인 - 스트림 요소를 소비하지 않으 여러번 끼워넣어도 상관X
+=> StreamEx2.java
+
+* mapToInt(), mapToLong(), mapToDouble()
+스트림 요소를 숫자로 변환하는 경우 기본형 스트림 변환이 더 유용할 수 있음 - 각 기본형 스트림에 저장
+기본형 스트림은 - sum() average() max() min() 추출 가능 => 최종연선이기때문에 호출 후 스트림이 닫힘
+스트림 또 생성 방지하고자 summaryStatistics()메서드 - IntSummaryStatistics 데이터타입
+=> StreamEx3.java
+
+* flatMap() - Stream<T[]> 를 Stream<T> 로 변환
+=> StreamEx4.java

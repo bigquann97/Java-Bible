@@ -32,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../14. 람다와 스트림" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -94,6 +95,7 @@
       <updated>1636969748946</updated>
       <workItem from="1636969750236" duration="1492000" />
       <workItem from="1636981146576" duration="625000" />
+      <workItem from="1637029126055" duration="28000" />
     </task>
     <servers />
   </component>
