@@ -1,4 +1,4 @@
-package bLambda2;
+package bLambda2.LambdaEx4;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,10 +13,10 @@ public class LambdaEx4 {
         for(int i = 0; i < 10; i++)
             list.add(i);
 
-        list.forEach(i -> System.out.print(i + ",")); // consumer
+        list.forEach(i -> System.out.print(i + ",")); // ctrl q
         System.out.println();
 
-        list.removeIf(x -> x % 2 == 0 || x % 3 == 0); // Predicate
+        list.removeIf(x -> x % 2 == 0 || x % 3 == 0); // ctrl q
         System.out.println(list);
 
         list.replaceAll(i -> i * 10); // UnaryOperator

@@ -43,6 +43,9 @@ public class LambdaEx1 {
         f3.run();
 
         execute(f1);
+
+//        MyFunction f4 = () -> System.out.println("run()");
+//        execute(f4);
         execute( () -> System.out.println("run()") );
     }
 }

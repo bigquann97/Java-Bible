@@ -19,3 +19,18 @@ isPresent()로 저장된 값 있는지 없는지 파악 가능
 
 Optional객체는 null 저장시 비어있는것과 동일하게 취급
 => OptionalEx1.java
+
+2.5 스트림의 최종 연산
+최종연산은 스트림의 요소를 소모해 결과를 만듦 - 스트림이 닫히고 더이상 사용 불가
+
+* forEach()
+반환타입 void - 출력용도로 많이 사용
+
+* 조건 검사 - allMatch(), anyMatch(), noneMatch(), findFirst(), findAny()
+
+* 통계 - count(), sum(), average(), max(), min()
+
+* 리듀싱 - reduce()
+스트림의 요소 줄여나가며 연산 수행 후 최종결과 반환 - 매개변수 타입이 BinaryOperator<T>
+
+=> StreamEx5.java

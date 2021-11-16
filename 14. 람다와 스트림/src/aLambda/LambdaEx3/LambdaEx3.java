@@ -15,6 +15,8 @@ class Outer {
             int val = 30; // final int val = 30;
 //          i = 10; // 에러 상수의 값 변경 불가
 
+//            val = 40;
+
             MyFunction f = () -> {
                 System.out.println("i : " + i);
                 System.out.println("val : " + val);

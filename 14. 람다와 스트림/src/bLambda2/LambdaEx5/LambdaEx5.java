@@ -1,4 +1,4 @@
-package bLambda2;
+package bLambda2.LambdaEx5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +20,7 @@ public class LambdaEx5 {
         printEvenNum(p, c, list);
         List<Integer> newList = doSomething(f, list);
         System.out.println(newList);
+
     }
 
     static <T> List<T> doSomething(Function<T, T> f, List<T> list) {

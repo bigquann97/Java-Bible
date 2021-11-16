@@ -5,11 +5,6 @@ interface MyFunction {
     void myMethod(); // public abstract void myMethod();
 }
 
-@FunctionalInterface
-interface MyFunction2 {
-    void myMethod();
-}
-
 public class LambdaEx2 {
     public static void main(String[] args) {
         MyFunction f = () -> {}; // MyFunction f = (MyFunction)( () -> {} );
