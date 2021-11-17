@@ -15,10 +15,9 @@ public class StreamEx1 {
                 new Student("김자바", 3, 180)
         );
 
-        studentStream.sorted(Comparator.comparing(Student::getBan) // 반별 정렬
+        studentStream.sorted(Comparator.comparing(Student::getStudent) // 반별 정렬
                 .thenComparing(Comparator.naturalOrder()))
                 .forEach(System.out::println);
-
     }
 }
 
@@ -40,6 +39,7 @@ class Student implements Comparable<Student> {
     String getName() { return name; }
     int getBan() { return ban; }
     int getTotalScore() { return totalScore; }
+    Student getStudent() { return this; }
 
     // 총점 내림차순을 기본 정렬로 한다
     public int compareTo(Student s) {

@@ -1,0 +1,8 @@
+Collect()
+가장 복잡하면수 유용한 collect() - 스트림의 요소를 수집하는 최종 연산 - 어떻게 수집할것인가에 대한 방법 정의 collector
+
+collect() - 스트림의 최종연산. 매개변수로 컬렉터를 필요로 한다
+Collector - 인터페이스 - 컬렉터는 이 인터페이스를 구현해야 한다
+Collectors - 클래스, static메서드로 미리 작성된 컬렉터를 제공한다
+
+=> StreamEx6.java

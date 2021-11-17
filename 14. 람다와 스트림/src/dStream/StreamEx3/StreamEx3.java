@@ -23,6 +23,7 @@ public class StreamEx3 {
                 .thenComparing(Comparator.naturalOrder()))
                 .forEach(System.out::println);
 
+
         stuStream = Stream.of(stuArr);
         IntStream stuScoreStream = stuStream.mapToInt(Student::getTotalScore);
 
