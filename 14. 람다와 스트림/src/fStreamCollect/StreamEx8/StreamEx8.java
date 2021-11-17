@@ -10,7 +10,7 @@ class Student {
     String name; // 이름
     boolean isMale; // 성별
     int hak; // 학년
-    int ban; // 반
+    int ban; // 반;
     int score; // 점수
 
     Student(String name, boolean isMale, int hak, int ban, int score) {
