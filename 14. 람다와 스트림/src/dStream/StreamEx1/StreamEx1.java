@@ -15,8 +15,8 @@ public class StreamEx1 {
                 new Student("김자바", 3, 180)
         );
 
-        studentStream.sorted(Comparator.comparing(Student::getBan) // 반별 정렬
-                .thenComparing(Comparator.naturalOrder()))
+        studentStream.sorted(Comparator.comparing(Student::getBan) // 반별 정렬 
+                .thenComparing(Comparator.naturalOrder())) // Student - compareTo를 사용해서 정렬을 또 해줄게
                 .forEach(System.out::println);
     }
 }

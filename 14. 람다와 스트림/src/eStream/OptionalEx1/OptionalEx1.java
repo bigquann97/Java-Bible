@@ -5,12 +5,11 @@ import java.util.OptionalInt;
 
 public class OptionalEx1 {
     public static void main(String[] args) {
-        Optional<String> optStr = Optional.of("abcde");
-        Optional<Integer> optInt = optStr.map(String::length);
+        Optional<String> optStr = Optional.of("abcde"); // 한 타입에 대한 래퍼클래스라고 볼 수 있는데 - Stream 다양한 메서드
+        Optional<Integer> optInt = optStr.map(String::length); // null 처리할때 용이하게 사용한다
 
         System.out.println("optStr = " + optStr.get());
         System.out.println("optInt = " + optInt.get());
-
 
         int result1 = Optional.of("123").filter(x -> x.length() > 0).map(Integer::parseInt).get();
         int result2 = Optional.of("").filter(x -> x.length() > 0).map(Integer::parseInt).orElse(-1);
@@ -32,7 +31,7 @@ public class OptionalEx1 {
         System.out.println("optInt2 = " + optInt2);
         System.out.println("optInt1.equals(optInt2) ? " + optInt1.equals(optInt2));
 
-        Optional<String> opt = Optional.ofNullable(null); // null 저장
+        Optional<String> opt = Optional.ofNullable(null); // null 저장 -
         Optional<String> opt2 = Optional.empty(); // 빈 객체 생성
 
         System.out.println("opt = " + opt);
@@ -40,7 +39,7 @@ public class OptionalEx1 {
         System.out.println("opt.equals(opt2) ? = " + opt.equals(opt2)); // true
 
         int result3 = optStrToInt(Optional.of("123"), 0);
-        int result4 = optStrToInt(Optional.of(""), 0);
+        int result4 = optStrToInt(Optional.of(""), 1);
 
         System.out.println("result3 = " + result3);
         System.out.println("result4 = " + result4);

@@ -5,8 +5,8 @@ import java.util.stream.Stream;
 
 public class StreamEx4 {
     public static void main(String[] args) {
-        Stream<String[]> strArrStrm = Stream.of(
-            new String[]{"abc", "def", "jkl"},
+        Stream<String[]> strArrStrm = Stream.of(                  // "abc" "basdf" "asdf" "asdf"
+            new String[]{"abc", "def", "jkl"},                    // "asdfasdf", "asdfasdf", "asdf", "asdf", "asdf", "asdf"
             new String[]{"ABC", "GHI", "JKL"}
         );
 
@@ -20,12 +20,12 @@ public class StreamEx4 {
         System.out.println();
 
         String[] lineArr = {
-                "Believe or not It is true",
+                "Believe or not It is true", // {Belive , or , not , It, is, true}
                 "Do or do not There is no ty"
         };
-
+         // {"Be true", "Do ty"}
         Stream<String> lineStream = Arrays.stream(lineArr);
-        lineStream.flatMap(line -> Stream.of(line.split(" +")))
+        lineStream.flatMap(line -> Stream.of(line.split(" ")))
                 .map(String::toLowerCase)
                 .distinct()
                 .sorted()

@@ -11,13 +11,13 @@ public class StreamEx2 {
         Stream<File> fileStream = Stream.of(fileArr);
 
         // map()으로 Stream<File>을 Stream<String>으로 변환
-        Stream<String> filenameStream = fileStream.map(File::getName);
+        Stream<String> filenameStream = fileStream.map(File::getName); // new File 넣었지만, 요소만 뽑아서 다시 Stream을 만들 수 있게 됩니다.
 //        filenameStream.forEach(System.out::println); // 모든 파일 이름 출력
 
         fileStream = Stream.of(fileArr); // 스트림 재생성
 
         // sequenctial, parallel
-        fileStream.map(File::getName)      // Stream<File> -> Stream<String>              "Ex1.java", "Ex1.bak", "Ex2.java", "Ex1", "Ex1.txt"
+        fileStream.map(File::getName)      // Stream<File> -> Stream<String>              "Ex1.java", "Ex1.bak", "Ex2.java", "Ex1", "Ex1.txt" . filter
                 .filter(s -> s.indexOf('.') != -1) // 확장자 없는 것 제외                    "Ex1.java", "Ex1.bak", "Ex2.java", "Ex1.txt"
                 .peek(s -> System.out.printf("filename = %s%n", s))     //              "Ex1.java", "Ex1.bak", "Ex2.java", "Ex1.txt"
                 .map(s -> s.substring(s.indexOf('.') + 1)) // 확장자만 추출                 "java", "bak", "java", "txt"

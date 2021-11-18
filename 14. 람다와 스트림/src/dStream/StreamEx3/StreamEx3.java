@@ -2,6 +2,7 @@ package dStream.StreamEx3;
 
 import java.util.Comparator;
 import java.util.IntSummaryStatistics;
+import java.util.function.IntFunction;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -23,10 +24,8 @@ public class StreamEx3 {
                 .thenComparing(Comparator.naturalOrder()))
                 .forEach(System.out::println);
 
-
         stuStream = Stream.of(stuArr);
         IntStream stuScoreStream = stuStream.mapToInt(Student::getTotalScore);
-
         IntSummaryStatistics stat = stuScoreStream.summaryStatistics();
         System.out.println("count = " + stat.getCount());
         System.out.println("sum = " + stat.getSum());

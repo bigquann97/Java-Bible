@@ -5,8 +5,8 @@ import java.util.function.Predicate;
 
 public class LambdaEx7 {
     public static void main(String[] args) {
-        Function<String, Integer> f = (s) -> Integer.parseInt(s, 16);
-        Function<Integer, String> g = (i) -> Integer.toBinaryString(i);
+        Function<String, Integer> f = (s) -> Integer.parseInt(s, 16); // Function - 합성
+        Function<Integer, String> g = (i) -> Integer.toBinaryString(i); // 2개를 정의를 하면은
 
         Function<String, String> h = f.andThen(g);
         Function<Integer, Integer> h2 = f.compose(g);
@@ -17,7 +17,7 @@ public class LambdaEx7 {
         Function<String, String> f2 = x -> x; // 항등 함수(identity function)
         System.out.println(f2.apply("AAA")); // AAA 그대로 출력
 
-        Predicate<Integer> p = i -> i < 100;
+        Predicate<Integer> p = i -> i < 100; // 다양하게 표현을 할 수 있게 됩니다
         Predicate<Integer> q = i -> i < 200;
         Predicate<Integer> r = i -> i % 2 == 0;
         Predicate<Integer> notP = p.negate(); // i >= 100

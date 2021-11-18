@@ -16,7 +16,7 @@ public class LambdaEx4 {
         list.removeIf(x -> x % 2 == 0 || x % 3 == 0);
         System.out.println(list);
 
-        list.replaceAll(i -> i * 10); // UnaryOperator
+        list.replaceAll(i -> i * 10); // UnaryOperator -
         System.out.println(list);
 
         Map<String, String> map = new HashMap<>();

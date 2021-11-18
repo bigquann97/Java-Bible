@@ -1,6 +1,7 @@
 package aLambda.LambdaEx1;
 
 import java.util.Comparator;
+
 // 함수형 인터페이스
 @FunctionalInterface
 interface MyFunction {
