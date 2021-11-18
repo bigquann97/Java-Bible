@@ -6,17 +6,14 @@ import java.util.Map;
 
 public class LambdaEx4 {
     public static void main(String[] args) {
-
-        // Runnable
-
         ArrayList<Integer> list = new ArrayList<>();
         for(int i = 0; i < 10; i++)
             list.add(i);
 
-        list.forEach(i -> System.out.print(i + ",")); // ctrl q
+        list.forEach(i -> System.out.print(i + ","));
         System.out.println();
 
-        list.removeIf(x -> x % 2 == 0 || x % 3 == 0); // ctrl q
+        list.removeIf(x -> x % 2 == 0 || x % 3 == 0);
         System.out.println(list);
 
         list.replaceAll(i -> i * 10); // UnaryOperator

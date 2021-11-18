@@ -7,14 +7,16 @@ import java.util.function.Supplier;
 
 public class LambdaEx0 {
     public static void main(String[] args) {
-
+        
+        // 자주 쓰이는 형식의 메서드를 함수형 인터페이스로 미리 정의해놓음
+        
 //        Runnable r = new Runnable() {
 //            @Override
 //            public void run() {
 //                System.out.println("hi");
 //            }
 //        }
-//
+
 //        Runnable r = () -> System.out.println("hi");
 //        r.run();
 

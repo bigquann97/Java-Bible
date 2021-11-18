@@ -22,7 +22,7 @@ public class LambdaEx7 {
         Predicate<Integer> r = i -> i % 2 == 0;
         Predicate<Integer> notP = p.negate(); // i >= 100
 
-        Predicate<Integer> all = notP.and(q.or(r));
+        Predicate<Integer> all = notP.and(q.or(r)); // i >= 100 && (i < 200 or i % 2 == 0)
         System.out.println(all.test(150)); // true
 
         String str1 = "abc";
@@ -32,7 +32,6 @@ public class LambdaEx7 {
         Predicate<String> p2 = Predicate.isEqual(str1);
         boolean result = p2.test(str2);
         System.out.println(result);
-
 
     }
 }

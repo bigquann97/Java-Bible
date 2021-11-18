@@ -1,7 +1,7 @@
 package aLambda.LambdaEx1;
 
 import java.util.Comparator;
-
+// 함수형 인터페이스
 @FunctionalInterface
 interface MyFunction {
     void run(); // public abstract void run();
@@ -36,6 +36,7 @@ public class LambdaEx1 {
                 System.out.println("f2.run()");
             }
         };
+
         MyFunction f3 = getMyFunction();
 
         f1.run();

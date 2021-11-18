@@ -48,11 +48,11 @@ public class OptionalEx1 {
 
     }
 
-    private static int optStrToInt(Optional<String> optStr, int defaultvalue) {
+    private static int optStrToInt(Optional<String> optStr, int defaultValue) {
         try {
             return optStr.map(Integer::parseInt).get();
         } catch (Exception e) {
-            return defaultvalue;
+            return defaultValue;
         }
     }
 }

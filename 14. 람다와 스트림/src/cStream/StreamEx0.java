@@ -11,21 +11,19 @@ public class StreamEx0 {
 
         Stream<String> strStream = Arrays.stream(strArr);
         
-        // 3가지 forEach 표현식 - Sout
+//        3가지 forEach 표현식 - Sout
 
-//
-//        strStream.forEach(System.out::println);
-//
-//        strStream = Arrays.stream(strArr);
 //        strStream.forEach((i) -> System.out.println(i));
 //
-//        strStream = Arrays.stream(strArr);
 //        strStream.forEach(new Consumer<String>() {
 //            @Override
 //            public void accept(String s) {
 //                System.out.println(s);
 //            }
 //        });
+//        
+//        메서드 참조
+//        strStream.forEach(System.out::println);
 
         String a = "Hi";
         String b = "Bye";

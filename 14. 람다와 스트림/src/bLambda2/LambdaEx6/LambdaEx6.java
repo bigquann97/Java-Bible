@@ -43,7 +43,4 @@ public class LambdaEx6 {
         }
         return newArr;
     }
-
-
-
 }

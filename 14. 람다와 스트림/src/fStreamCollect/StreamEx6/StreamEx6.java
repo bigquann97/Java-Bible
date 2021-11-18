@@ -24,17 +24,12 @@ public class StreamEx6 {
 
         // 스트림을 배열로 반환
         Student[] stuArr2 = Stream.of(stuArr).toArray(Student[]::new);
-        Student[] stuArr3 = stuArr;
         for(Student s : stuArr2) {
             System.out.println(s);
         }
 
-        for(Student s : stuArr3) {
-            System.out.println(s);
-        }
-
         // 스트림을 Map<String, Student>로 변환 - 학생이름이 key
-        Map<String, Student> stuMap = Stream.of(stuArr).collect(Collectors.toMap(s -> s.getName(), p-> p));
+        Map<String, Student> stuMap = Stream.of(stuArr).collect(Collectors.toMap(s -> s.getName(), p -> p));
 
         for(String name : stuMap.keySet()) {
             System.out.println(name + " - " + stuMap.get(name));
