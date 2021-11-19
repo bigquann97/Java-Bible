@@ -2,41 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="059484bc-9b70-4907-8aa1-36fc2ed0b522" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/Lambda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/Lambda.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/LambdaEx1/LambdaEx1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/LambdaEx1/LambdaEx1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/LambdaEx1/LambdaEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/aLambda/LambdaEx1/LambdaEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx0/LambdaEx0.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx0/LambdaEx0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx4/LambdaEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx4/LambdaEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx7/LambdaEx7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/bLambda2/LambdaEx7/LambdaEx7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx1/StreamEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx1/StreamEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx2/StreamEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx2/StreamEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx3/StreamEx3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx3/StreamEx3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx3/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx4/StreamEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/dStream/StreamEx4/StreamEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/eStream/OptionalEx1/OptionalEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/out/production/14. 람다와 스트림/eStream/OptionalEx1/OptionalEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/aLambda/Lambda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/aLambda/Lambda.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/aLambda/LambdaEx1/LambdaEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/aLambda/LambdaEx1/LambdaEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx0/LambdaEx0.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx0/LambdaEx0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx4/LambdaEx4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx4/LambdaEx4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx7/LambdaEx7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/bLambda2/LambdaEx7/LambdaEx7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/cStream/StreamEx0.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/cStream/StreamEx0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx1/StreamEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx1/StreamEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx2/StreamEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx2/StreamEx2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx3/StreamEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx3/StreamEx3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx4/StreamEx4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/dStream/StreamEx4/StreamEx4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/eStream/OptionalEx1/OptionalEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/eStream/OptionalEx1/OptionalEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14. 람다와 스트림/src/eStream/StreamEx5/StreamEx5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. 람다와 스트림/src/eStream/StreamEx5/StreamEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/객체지향언어" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="215zW4tE8piDRm4Ge9aIzAv47qR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +36,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.BlockTest">
+    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlockTest" />
+      <module name="6. 객체지향프로그래밍1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarTest3" />
+      <module name="6. 객체지향프로그래밍1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Note" />
+      <module name="6. 객체지향프로그래밍1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BlockTest" />
+        <item itemvalue="Application.CarTest3" />
+        <item itemvalue="Application.Note" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +77,22 @@
       <option name="presentableId" value="Default" />
       <updated>1637245765621</updated>
       <workItem from="1637245770373" duration="5000" />
+      <workItem from="1637277228678" duration="4929000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
