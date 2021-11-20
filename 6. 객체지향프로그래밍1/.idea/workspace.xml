@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../7. 객체지향프로그래밍2" />
   </component>
   <component name="RunManager" selected="Application.BlockTest">
     <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -73,6 +73,7 @@
       <workItem from="1637245770373" duration="5000" />
       <workItem from="1637277228678" duration="6442000" />
       <workItem from="1637296451148" duration="8000" />
+      <workItem from="1637380673035" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Finish OOP1">
       <created>1637283638826</created>
