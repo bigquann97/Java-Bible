@@ -1,0 +1,72 @@
+import문 없이 사용 가능
+
+Object 클래스
+equals() - 주소값 비교 - 오버라이딩 하여 재정의 가능
+String은 이미 오버라이딩 되어있어 내용 같으면 true
+
+hashCode() - 해시함수 구현체
+String은 이미 오버라이딩 - 같은 내용시 같은 해시코드
+System.identityHashCode(Object x)는 객체의 주소값으로 해시코드를 생성함
+
+toString() - 16진수 해시코드
+오버라이딩 시 원하는대로 출력 가능
+
+clone() - 자신을 복제하여 새로운 인스턴스 생성
+사용하려면 Cloneable인터페이스 구현해야하고, clone()을 오버라이딩 하면서 protected에서 public으로 변경해야한다
+
+공변 반환타입 - Object형태가 아닌 자식 클래스로 형변환하여 번거로운 형변환이 줄어듦
+
+얕은 복사와 깊은 복사
+얕은 복사 - 원본과 복사본이 같은 객체를 공유 - 서로 영향을 받음
+깊은 복사 - 원본이 참조하는 객체까지 복제하는 것 - 서로 영향 X
+
+Class 객체 - class 정보를 얻을 수 있음
+getClass
+
+==================================
+String 클래스
+immutable 클래스 - 변경불가
+덧셈하면 새로운 메모리 공간이 생길뿐, 결합이 이뤄지는게 아님 - StringBuffer사용 필요
+
+"abc" - 문자열 리터럴 "abc"의 주소
+new String("abc"); - 새로운 String 인스턴스 생성
+
+String은 빈문자열 ""로 초기화 가능, char은 ' '로 무조건 공백 필요
+
+join()과 StringJoiner()
+구분자로 문자열을 자르는 split(), 구분자를 넣어 결합하는 join()
+StringJoiner - .add()를 이용해 결합문자열을 받음
+
+String을 기본형 값으로 변환 - parseInt, valueOf
+
+StringBuffer
+append - 자신의 주소를 반환하기때문에 계속 사용 가능 - 메모리 낭비도 없음
+toString으로 형변환 후 equals 메서드 사용하면 같아짐
+
+StringBuilder
+멀티쓰레드에 안전하도록 동기화
+
+=====================================
+Math 클래스
+자연로그의 밑 E, 원주율 PI 두개의 상수 정의해놓음
+Math.round(수)
+ceil 올림, floor 버림, round 반올림, rint 반올림(double - 가장 가까운 짝수값이 됨)
+
+스택오버플로우 발생가능 - Exact가 이름에 들어간 메서드 - 오버플로우 감지
+
+=====================================
+래퍼 클래스 - 기본형 값이 아닌 객체로 저장해야할 때
+boolean, Character, Byte, Short, Integer, Long, Float, Double
+Integer에 비교연산자 사용불가(오토박싱이 되긴하지만) - compareTo()를 제공함
+
+Number 클래스
+BigInteger - long으로도 담을 수 없는 큰 범위의 정수
+BigDecimal - double로도 다룰 수 없는 큰 범위의 부동 소수점수를 처리하기 위해
+
+문자열을 숫자로 변환하기 - Byte, Short ... Double
+Integer.parseInt("100");
+X.parseX("100") <=> X.valueOf("100");
+
+오토박싱과 언박싱
+기본형과 참조형간의 변환 - Integer객체를 int타입의 값으로 변환해주는 intValue()를 컴파일러가 자동추가
+기본형 값을 래퍼클래스로 자동변환하는 오토박싱 <=> 래퍼클래스를 기본형으로 풀어주는 언박싱
