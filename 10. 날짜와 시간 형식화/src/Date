@@ -1,0 +1,6 @@
+Calendar - 추상클래스 - 메서드로 완전 구현된 인스턴스 얻어야 함
+태국은 BuddhistCalendar, 나머지 GregorianCalendar
+
+getInstance로 가져오면 MyApplication을 변경하지 않아도 됨
+
+Date는 대부분 deprecated
